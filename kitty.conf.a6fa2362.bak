@@ -313,7 +313,7 @@ font_size 14.0
 
 #: The thickness of the underline cursor (in pts).
 
-cursor_blink_interval 1
+# cursor_blink_interval -1
 
 #: The interval to blink the cursor (in seconds). Set to zero to
 #: disable blinking. Negative values mean use system default. Note
@@ -331,7 +331,7 @@ cursor_blink_interval 1
 #: setting also controls blinking text, which blinks in exact rhythm
 #: with the cursor.
 
-cursor_stop_blinking_after 15.0
+# cursor_stop_blinking_after 15.0
 
 #: Stop blinking cursor after the specified number of seconds of
 #: keyboard inactivity. Set to zero to never stop blinking. This
@@ -2963,4 +2963,3 @@ bold_italic_font auto
 # Brogrammer
 include current-theme.conf
 # END_KITTY_THEME
-map shift+enter send_text all \e\r
